@@ -1,9 +1,9 @@
-name: DEV CI Pipeline
+name: Master CI Pipeline
 
 on:
   push:
     branches:
-      - dev   # Only runs for dev branch
+      - main   # Only runs for dev branch
 
 jobs:
   build-and-push-dev:
